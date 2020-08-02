@@ -1,0 +1,19 @@
+.App{
+    display: grid;
+    grid-template-rows: 4fr 1fr 5fr;
+    justify-content: center;
+}
+.mainImg{
+    justify-self: center;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    
+}
+.thumbnails{
+    display: grid;
+    grid-template-columns: repeat(4,1fr)
+}
